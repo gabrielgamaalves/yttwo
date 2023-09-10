@@ -1,0 +1,170 @@
+@import url("https://cdn.jsdelivr.net/gh/gabrielgamaalves/yttwo@main/y/icons/yt2i.css");
+
+#yttwo {
+    width: 100%;
+    overflow: visible;
+}
+
+.yt2-iframe__topbar{
+    width: 100%;
+    background-color: #222222;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.411);
+    user-select: none;
+    text-transform: uppercase;
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#yttwoframe{
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.miniplayer{
+    padding-left: 1px;
+    padding-right: 1px;
+    position: fixed;
+    z-index: 2021;
+    top: 70px;
+    /* transition: 0 !important; */
+}
+
+.miniplayer:hover > .yt2-iframe__topbar{
+    height: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.miniplayer-iframe{
+    width: 100% !important;
+    /* transition: 0 !important; */
+    height: 100% !important;
+}
+
+.miniplayer:hover > .miniplayer-iframe{
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;  
+}
+
+/* sobrepor miniplayer */
+.minify{
+    height: 0 !important;
+    transition: 0.3s !important;
+}
+
+
+.yt2-view-miniplayer{
+    position: fixed;
+    height: 100vh;
+
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+
+.yt2-bottom {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+
+.yt2-search {
+    display: flex;
+    height: 38px;
+    border-radius: 40px;
+    border: 1px solid #303030;
+    padding-left: 15px;
+    background-color: #121212;
+    width: 100%;
+
+    transition: 0.2s;
+}
+
+.yt2-search input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+}
+
+.yt2-search button {
+    border-radius: 0px 40px 40px 0px;
+    border: 0;
+    width: 60px;
+    display: flex;
+    background-color: #ffffff14;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.yt2-search button i {
+    font-size: 24px !important;
+    text-align: center;
+    color: white;
+}
+
+#yttwoSettings {
+    height: 38px !important;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#yttwoSettings i {
+    color: white;
+    font-size: 28px !important;
+}
+
+.yt2-settings {
+    position: relative;
+}
+
+#yt2menu {
+    display: none;
+
+    overflow: hidden;
+    position: absolute;
+    right: 120%;
+    top: -30%;
+    padding: 16px 0px;
+    padding-top: 8px;
+    background-color: #282828;
+    z-index: 1000;
+    border-radius: 12px;
+    box-shadow: 0px 4px 32px 0px var(--yt-spec-static-overlay-background-light);
+}
+
+#yt2menu p {
+    font-size: 14px;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#yt2menu p i{
+    font-size: 19px;
+    margin-right: 16px;
+}
+
+#yt2menu p:hover {
+    background-color: #3e3e3e;
+    transition: 0.1s;
+}
+
+@media (max-width: 1014px) {
+    #yttwo {
+        display: none !important;
+    }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 540 540)" id="c214e175-f258-4a1c-a141-60470c7b4fea"  >
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="c90cbc24-27bc-4b32-9c2b-22c790adac0f"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(0 0 0 0 0 0)"  >
+<g style=""   >
+</g>
+</g>
+<g transform="matrix(NaN NaN NaN NaN 0 0)"  >
+<g style=""   >
+</g>
+</g>
+<g transform="matrix(NaN NaN NaN NaN 0 0)"  >
+<g style=""   >
+</g>
+</g>
+<g transform="matrix(NaN NaN NaN NaN 0 0)"  >
+<g style=""   >
+</g>
+</g>
+<g transform="matrix(NaN NaN NaN NaN 0 0)"  >
+<g style=""   >
+</g>
+</g>
+<g transform="matrix(67.5 0 0 67.5 540 540)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 6.5 0)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: evenodd; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-14.5, -8)" d="M 14.5 1 C 14.223857625084603 1 14 1.2238576250846034 14 1.5 L 14 14.5 C 14 14.776142374915397 14.223857625084603 15 14.5 15 C 14.776142374915397 15 15 14.776142374915397 15 14.5 L 15 1.5 C 15 1.2238576250846034 14.776142374915397 1 14.5 1 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -1 0)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-7, -8)" d="M 13 7 C 13 6.447715250169207 12.552284749830793 6 12 6 L 2 6 C 1.4477152501692065 6 1 6.447715250169207 1 7 L 1 9 C 1 9.552284749830793 1.4477152501692065 10 2 10 L 12 10 C 12.552284749830793 10 13 9.552284749830793 13 9 L 13 7 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

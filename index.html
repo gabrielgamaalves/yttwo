@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yttwo</title>
+    <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/510f0670/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+</head>
+
+<body>
+    <header>
+        <div class="search">
+            <input type="text" name="" id="search" placeholder="https://www.youtube.com/watch?v=eL6zdEwRKws">
+            <button type="submit" onclick="yttwogen()">
+                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false"
+                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                    <path
+                        d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="primary">
+            <div class="iframe">
+                <iframe src="" title="YouTube Player Preview" id="playerPreview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="if-primary"></div>
+        </div>
+        <div class="secondary">
+            <div class="code">
+                <textarea name="" disabled id="txtcode" cols="30" rows="10"
+                    placeholder="Seu código irá aparecer aqui"></textarea>
+                <div class="btn__code">
+                    <button class="btn__code-1">Copiar código</button>
+                    <button class="btn__code-2">Como usar?</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        const $URL = 
+        "https://yttwo.netlify.app/y/"
+        // "http://127.0.0.1:5500/y/"
+
+        const $FILE = 
+        // "yttwo.js"
+        "yttwo.min.js"
+
+        // document.getElementById("yt2script")?console.error("O yttwo j\xe1 est\xe1 em execu\xe7\xe3o"):((y=document.createElement("script")).src="http://127.0.0.1:5500/y/yttwo.js",y.id="yt2script",(async()=>await document.body.appendChild(y))().then(setTimeout(()=>Yttwo(""),3e3)));
+
+        tippy('.search', {
+            content: ' Cole o link do video aqui! ',
+            animation: 'scale',
+            placement: 'bottom-start',
+        });
+
+        function copycode() {
+            navigator.clipboard.writeText(document.getElementById("txtcode").value).then(() => {
+                Swal.fire({
+                    icon: 'success',
+                    text: 'Código copiado com sucesso',
+                    confirmButtonText: '<i class="fa fa-thumbs-up"></i> Showwwwww!!',
+                    footer: '<a href="">Deseja saber como utilizar o código?</a>'
+                })
+            })
+        }
+
+        function yttwogen() {
+            const url = document.getElementById("search").value.trim()
+            const p = /^(?:https?:\/\/)?(?:m\.|www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+            if (url.match(p)) {
+                // return url.match(p)[1];
+                document.getElementById("txtcode").innerHTML = `document.getElementById("yt2script")?console.error("O yttwo j\xe1 est\xe1 em execu\xe7\xe3o"):((y=document.createElement("script")).src="${$URL}${$FILE}",y.id="yt2script",(async()=>await document.body.appendChild(y))().then(setTimeout(()=>Yttwo("${url.match(p)[1]}"),3e3)));`
+
+                const btncopy = document.querySelector("button.btn__code-1")
+                btncopy.classList.add("copy-active")
+                btncopy.setAttribute("onclick", "copycode()")
+                
+                document.getElementById("playerPreview").src = "https://www.youtube.com/embed/" + url.match(p)[1]
+
+                return
+            }
+
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'A url inserida está errada!',
+                footer: '<a href="">Deseja saber como usar o site?</a>'
+            })
+        }
+
+    </script>
+</body>
+
+</html>
