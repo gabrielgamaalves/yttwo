@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="link-para-o-seu-logo.png" alt="YTTwo Logo" width="200">
+  <img src="link-para-o-seu-logo.png" alt="Yttwo Logo" width="200">
 </p>
 
-<h1 align="center">YTTwo</h1>
+<h1 align="center">Yttwo</h1>
 <h3 align="center">Adicione uma Segunda Tela ao YouTube</h3>
 
 <p align="center">
-  Transforme sua experiência no YouTube com a extensão YTTwo. Adicione uma segunda tela personalizada ao site, permitindo multitarefa perfeita enquanto assiste a vídeos.
+  Transforme sua experiência no YouTube com a extensão Yttwo. Adicione uma segunda tela personalizada ao site, permitindo multitarefa perfeita enquanto assiste a vídeos.
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="link-para-screenshot-da-extensao.png" alt="YTTwo Screenshot" width="600">
+  <img src="link-para-screenshot-da-extensao.png" alt="Yttwo Screenshot" width="600">
 </p>
 
 **Versão Atual: 1.2.0**
@@ -35,9 +35,9 @@
 
 ## Como Usar
 
-1. **Instalação**: Adicione a extensão YTTwo ao seu navegador a partir da Chrome Web Store (ou outra fonte de extensões compatível com seu navegador).
+1. **Instalação**: Adicione a extensão Yttwo ao seu navegador a partir da Chrome Web Store (ou outra fonte de extensões compatível com seu navegador).
 
-2. **Ativação**: Uma vez instalado, ative a extensão clicando no ícone do YTTwo na barra de ferramentas do navegador.
+2. **Ativação**: Uma vez instalado, ative a extensão clicando no ícone do Yttwo na barra de ferramentas do navegador.
 
 3. **Personalização**: Configure o tamanho e a posição da segunda tela de acordo com suas preferências.
 
@@ -49,7 +49,7 @@ Para obter ajuda ou relatar problemas, por favor, [abra uma issue](link-para-as-
 
 ## Contribuição
 
-Contribuições são bem-vindas! Se você deseja melhorar ou estender o YTTwo, siga as diretrizes de contribuição no nosso [guia do contribuinte](link-para-o-guia-de-contribuição).
+Contribuições são bem-vindas! Se você deseja melhorar ou estender o Yttwo, siga as diretrizes de contribuição no nosso [guia do contribuinte](link-para-o-guia-de-contribuição).
 
 ## Licença
 
@@ -59,4 +59,4 @@ Este projeto é licenciado sob a Licença [MIT](LICENSE.md).
 
 ---
 
-Aproveite ao máximo sua experiência no YouTube com o YTTwo. Transforme sua maneira de assistir a vídeos online. Experimente agora!
+Aproveite ao máximo sua experiência no YouTube com o Yttwo. Transforme sua maneira de assistir a vídeos online. Experimente agora!
