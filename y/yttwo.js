@@ -16,6 +16,9 @@ interactjs.src = "https://unpkg.com/interactjs/dist/interact.min.js"
 document.body.insertBefore(interactjs, document.getElementById("yt2script"))
 
 function Yttwo(v) {
+    // definição dos elementos:
+
+
     // retira o id do video:
     function id_v(url) {
         var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
@@ -25,11 +28,11 @@ function Yttwo(v) {
 
     // ajusta o tamanho de acordo com a tela
     function resize() {
-        function ow(id) { return document.getElementById(id).offsetWidth }
+        function ow(id) { return document.querySelector(id).offsetWidth }
 
-        let cl = ow("secondary") + (ow("primary") + 24)
+        let cl = ow("#columns #secondary") + (ow("#columns #primary") + 24)
         let body = document.body.clientWidth - cl
-        let w = ow("secondary") + (body / 2)
+        let w = ow("#columns #secondary") + (body / 2)
         w = w - 24
 
         const yttframe = document.getElementById("yttwoframe")
@@ -40,9 +43,9 @@ function Yttwo(v) {
         ytt.style.width = `${w}px`
 
         const yttbottom_search = document.getElementById("yt2search")
-        yttbottom_search.style.maxWidth = `${ow("secondary-inner") - 15}px`
+        yttbottom_search.style.maxWidth = `${ow("#secondary-inner") - 15}px`
 
-        document.getElementById("yt2menu").style.width = `${ow("secondary-inner") - 90}px`
+        document.getElementById("yt2menu").style.width = `${ow("#secondary-inner") - 90}px`
     };
 
     // iframe
