@@ -15,12 +15,6 @@ const interactjs = document.createElement("script")
 interactjs.src = "https://unpkg.com/interactjs/dist/interact.min.js"
 document.body.insertBefore(interactjs, document.getElementById("yt2script"))
 
-const yt2icons = document.createElement("link")
-yt2icons.href = $URL + "icons/yt2i.css"
-yt2icons.rel = "stylesheet"
-yt2icons.id = "yt2icons"
-document.head.appendChild(yt2icons)
-
 function Yttwo(v) {
     // retira o id do video:
     function id_v(url) {

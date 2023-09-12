@@ -1,62 +1,86 @@
 <p align="center">
-  <img src="link-para-o-seu-logo.png" alt="Yttwo Logo" width="200">
+  <img src="https://sua-url-do-logo.com/logo.png" alt="Logo do yttwo">
 </p>
 
-<h1 align="center">Yttwo</h1>
-<h3 align="center">Adicione uma Segunda Tela ao YouTube</h3>
+<h1 align="center">yttwo</h1>
+
+O **yttwo** é uma extensão inovadora para o YouTube que oferece uma experiência única de visualização, permitindo que você adicione uma segunda tela de vídeo independente ao reprodutor de vídeo do YouTube. Utilizando o próprio sistema de incorporação (embed) do YouTube, o yttwo torna possível assistir a dois vídeos simultaneamente na mesma janela do navegador.
+
+__<em>Versão 1.2.0</em>__
+
+## 📜 Menu
+
+- [📜 Menu](#-menu)
+- [🚀 Novo Sistema de Menu](#-novo-sistema-de-menu)
+- [🛠️ Instalação](#️-instalação)
+- [🎬 Como Usar](#-como-usar)
+- [💻 Tecnologia](#-tecnologia)
+- [🌐 Site Oficial](#-site-oficial)
+- [🚀 Sugestões e Contribuições](#-sugestões-e-contribuições)
+- [🤝 Contribuição](#-contribuição)
+
+## 🚀 Novo Sistema de Menu
+
+A última atualização do yttwo apresenta um novo sistema de menu, projetado para se ajustar automaticamente à resolução do seu monitor. Isso garante uma experiência de usuário perfeita, independentemente das configurações do seu display.
+
+<!-- ## 📸 Capturas de Tela
 
 <p align="center">
-  Transforme sua experiência no YouTube com a extensão Yttwo. Adicione uma segunda tela personalizada ao site, permitindo multitarefa perfeita enquanto assiste a vídeos.
+  <img src="https://sua-url-das-imagens.com/captura1.png" alt="Captura de Tela 1">
 </p>
 
 <p align="center">
-  <a href="#recursos-principais">Recursos Principais</a> •
-  <a href="#como-usar">Como Usar</a> •
-  <a href="#suporte">Suporte</a> •
-  <a href="#contribuição">Contribuição</a> •
-  <a href="#licença">Licença</a>
+  <em>Adicione uma segunda tela de vídeo ao YouTube.</em>
 </p>
 
 <p align="center">
-  <img src="link-para-screenshot-da-extensao.png" alt="Yttwo Screenshot" width="600">
+  <img src="https://sua-url-das-imagens.com/captura2.png" alt="Captura de Tela 2">
 </p>
 
-**Versão Atual: 1.2.0**
+<p align="center">
+  <em>Personalize o layout da segunda tela de vídeo.</em>
+</p> -->
 
-## Recursos Principais
+## 🛠️ Instalação
 
-- **Segunda Tela Personalizada**: Crie uma segunda tela ao lado do vídeo principal e personalize o tamanho e a posição de acordo com suas preferências.
+Para começar a usar o yttwo, siga estas simples etapas:
 
-- **Navegação Simultânea**: Navegue pelo YouTube, leia comentários, pesquise vídeos e explore playlists sem interromper a reprodução do vídeo principal.
+1. Faça o download da extensão yttwo na [Chrome Web Store](https://chrome.google.com/webstore/yttwo).
 
-- **Multitarefa Perfeita**: Ideal para estudos, trabalho ou simplesmente para economizar tempo. Realize várias tarefas enquanto assiste a vídeos no YouTube.
+2. Clique no ícone da extensão yttwo na barra de ferramentas do Chrome.
 
-- **Controle de Vídeo Independente**: Controle vídeos em ambas as telas separadamente. Pause, avance, retroceda e ajuste o volume com facilidade.
+3. Cole o URL do vídeo que deseja adicionar como segunda tela e ajuste as configurações conforme necessário.
 
-## Como Usar
+4. Comece a assistir a dois vídeos simultaneamente e desfrute da experiência de visualização aprimorada!
 
-1. **Instalação**: Adicione a extensão Yttwo ao seu navegador a partir da Chrome Web Store (ou outra fonte de extensões compatível com seu navegador).
+## 🎬 Como Usar
 
-2. **Ativação**: Uma vez instalado, ative a extensão clicando no ícone do Yttwo na barra de ferramentas do navegador.
+1. Após a instalação, abra qualquer vídeo do YouTube em sua janela do navegador.
 
-3. **Personalização**: Configure o tamanho e a posição da segunda tela de acordo com suas preferências.
+2. Clique no ícone da extensão yttwo na barra de ferramentas do Chrome.
 
-4. **Comece a Usar**: Abra o YouTube e desfrute da multitarefa enquanto assiste a vídeos.
+3. Cole o URL do segundo vídeo do YouTube que deseja assistir na segunda tela.
 
-## Suporte
+4. Personalize o layout, tamanho e posição da segunda tela de vídeo de acordo com suas preferências.
 
-Para obter ajuda ou relatar problemas, por favor, [abra uma issue](link-para-as-issues-do-seu-repositório).
+5. Pressione o botão "Adicionar" para inserir a segunda tela de vídeo.
 
-## Contribuição
+6. Aproveite a experiência de assistir a dois vídeos ao mesmo tempo!
 
-Contribuições são bem-vindas! Se você deseja melhorar ou estender o Yttwo, siga as diretrizes de contribuição no nosso [guia do contribuinte](link-para-o-guia-de-contribuição).
+## 💻 Tecnologia
 
-## Licença
+O yttwo é desenvolvido com JavaScript, garantindo alta eficiência e desempenho. O código-fonte está disponível em nosso repositório [GitHub](https://github.com/gabrielgamaalves/yttwo).
 
-Este projeto é licenciado sob a Licença [MIT](LICENSE.md).
+## 🌐 Site Oficial
 
-**Website Oficial**: [https://yttwo.netlify.app/](https://yttwo.netlify.app/)
+Visite nosso [site oficial](https://yttwo.netlify.app/) para obter mais informações e recursos.
 
----
+## 🚀 Sugestões e Contribuições
 
-Aproveite ao máximo sua experiência no YouTube com o Yttwo. Transforme sua maneira de assistir a vídeos online. Experimente agora!
+Estamos sempre abertos a sugestões para novas funções e melhorias no yttwo. Se você tiver alguma ideia, por favor, compartilhe-a conosco. Sua contribuição é valiosa para nós!
+
+## 🤝 Contribuição
+
+Estamos abertos a contribuições da comunidade para melhorar o yttwo. Se você é um desenvolvedor interessado em contribuir, siga as diretrizes em nosso [CONTRIBUTING.md](CONTRIBUTING.md) para começar.
+
+Feito por Gabriel Gama | Z☕
