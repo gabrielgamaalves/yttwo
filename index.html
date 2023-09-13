@@ -29,7 +29,9 @@
     <main>
         <div class="primary">
             <div class="iframe">
-                <iframe src="" title="YouTube Player Preview" id="playerPreview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="" title="YouTube Player Preview" id="playerPreview" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
             <div class="if-primary"></div>
         </div>
@@ -49,13 +51,13 @@
     <script src="https://unpkg.com/tippy.js@6"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        const $URL = 
-        "https://yttwo.netlify.app/y/"
+        const $URL =
+            "https://yttwo.netlify.app/y/"
         // "http://127.0.0.1:5500/y/"
 
-        const $FILE = 
-        // "yttwo.js"
-        "yttwo.min.js"
+        const $FILE =
+            // "yttwo.js"
+            "yttwo.min.js"
 
         // document.getElementById("yt2script")?console.error("O yttwo j\xe1 est\xe1 em execu\xe7\xe3o"):((y=document.createElement("script")).src="http://127.0.0.1:5500/y/yttwo.js",y.id="yt2script",(async()=>await document.body.appendChild(y))().then(setTimeout(()=>Yttwo(""),3e3)));
 
@@ -86,7 +88,7 @@
                 const btncopy = document.querySelector("button.btn__code-1")
                 btncopy.classList.add("copy-active")
                 btncopy.setAttribute("onclick", "copycode()")
-                
+
                 document.getElementById("playerPreview").src = "https://www.youtube.com/embed/" + url.match(p)[1]
 
                 return
