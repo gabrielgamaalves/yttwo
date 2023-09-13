@@ -72,7 +72,7 @@ Para começar a usar o yttwo, siga estas simples etapas:
 
 Este é um guia simples para executar código no console do navegador. Siga estas etapas:
 
-### Passo 1: Abra o Console do Navegador
+#### Passo 1: Abra o Console do Navegador
 
 1. Abra o navegador da sua escolha (como Google Chrome, Mozilla Firefox, Microsoft Edge, etc.).
 
@@ -83,7 +83,7 @@ Este é um guia simples para executar código no console do navegador. Siga esta
    - Clique com o botão direito do mouse em qualquer lugar na página e selecione "Inspecionar" ou "Inspecionar elemento".
    - Pressione `Ctrl + Shift + J` (ou `Cmd + Option + J` em um Mac) para abrir diretamente o console.
 
-### Passo 2: Cole o Código no Console
+#### Passo 2: Cole o Código no Console
 
 Depois de abrir o console, você verá uma área onde pode digitar comandos. Cole o código fornecido pelo site na área do console.
 
@@ -92,7 +92,7 @@ __exemplo do codigo:__
 document.getElementById("yt2script") ? console.error("O yttwo já está em execução") : ((y = document.createElement("script")).src = "https://yttwo.netlify.app/y/yttwo.min.js", y.id = "yt2script", (async () => await document.body.appendChild(y))().then(setTimeout(() => Yttwo("#######"), 3000)));
 ```
 
-### Passo 3: Execute o Código
+#### Passo 3: Execute o Código
 
 Após colar o código no console, pressione a tecla `Enter` no seu teclado. O código será executado imediatamente.
 
